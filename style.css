@@ -1,5 +1,5 @@
 body {
-  background: rgb(51, 106, 61);
+  background: rgb(81, 182, 100);
   color: rgb(45, 45, 45);
   padding: 10px;
   font-family: arial;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-  background: rgb(20, 4, 0);
+  background: rgb(37, 87, 42);
   margin: 0 auto; 
   margin-bottom: 20px;
   display: flex; 
@@ -20,7 +20,7 @@ nav {
 h1 {
   display: flex;
   align-items: center;
-  color: rgb(248, 245, 245);
+  color: rgb(255, 255, 255);
   flex: 1;
   margin: 0;
 }
@@ -33,7 +33,7 @@ h1 {
 }
 a {
   text-decoration: none;
-  color: #e5e5e5;
+  color: #ffffff;
 }
 
 /* main container area beneath menu */
@@ -61,4 +61,28 @@ main {
 h2,
 h3 {
   margin: 0px;
+}
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #4de87b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #d0f8d6;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
 }
