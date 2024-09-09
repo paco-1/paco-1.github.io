@@ -86,3 +86,27 @@ h3 {
   text-decoration: none;
   color: #454545;
 }
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #6df98d;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #caf2d4;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
+}
