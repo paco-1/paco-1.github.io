@@ -9,7 +9,7 @@
         .box {
             width: 70px;
             height: 70px;
-            background-color: #74f781;
+            background-color: #17df60;
             font-size: 300%;
             text-align: center;
             user-select: none;
@@ -101,9 +101,15 @@
             function handleBoxClick() {
 
                 positionX = 0;
-                speed = speed + 3;
-                points = points +1 ;
-        
+          if(speed > 0)
+        	{
+          speed += 3; 
+        	}
+        else if(speed < 0)
+        {
+          speed -= 3;
+        }
+          points = points + 1;
                 changeBoxText(points);
             };
 
